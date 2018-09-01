@@ -1,8 +1,16 @@
 # Udacity Carnival
-Starter project for the Udacity [VR Developer Nanodegree](http://udacity.com/vr) program.
+by Mostafa Elsheikh, in fulfillment of the Udacity [VR Developer Nanodegree](http://udacity.com/vr) program.
 
 - Course: Introduction to Virtual Reality
 - Project: Udacity Carnival
+
+
+### Description
+
+The Udacity Carnival consists of 3 Mini-Games: Plinko, Wheel of Fortune, and Coin Toss. With each game, you earn points. When you earn 2000 points, you will receive a virtual classic Carnival prize!
+
+### Preview
+![Screenshot](https://github.com/Sasa94s/vrnd-udacity-carnival/blob/master/screenshot.png)
 
 
 ### Versions Used
@@ -12,13 +20,14 @@ Starter project for the Udacity [VR Developer Nanodegree](http://udacity.com/vr)
 
 
 ### Directory Structure
-- The Unity project is the child directory of the repository and named according to the associated lesson.
+- The Unity project is the child directory of the repository and named "Udacity Carnival".
 - The Unity project is 'cleaned' and includes the `Assets` folder, the `ProjectSettings` folder, and the `UnityPackageManager` folder.
+- The Unity project is built for **Android** platform named as `UdacityCarnival.apk` and included in `Build.zip` file which works on a Minimum API Level *Android 4.4 'KitKat' (API level 19)*.
 
 
 ### GVR SDK for Unity
-- `GoogleVR` > `Demos` is not included.
-- `GoogleVR` > `GVRVideoPlayer.unitypackage` is not included.
+- `GoogleVR` > `Demos` is included.
+- `GoogleVR` > `GVRVideoPlayer.unitypackage` is included.
 - The `Max Reticle Distance` value for the `GvrReticlePointer` used in the scene is set to `20` instead of the default `10`.
 - Scripts applicable to the course have been updated to reflect Unity's API change from `UnityEngine.VR` to `UnityEngine.XR`.
 
